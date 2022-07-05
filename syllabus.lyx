@@ -1,0 +1,966 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+
+\end_preamble
+\use_default_options false
+\begin_modules
+theorems-ams-bytype
+theorems-ams-extended-bytype
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package auto
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "biolinum" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\pdf_subject "PhD defense presentation"
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks true
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "urlcolor=myBlue,citecolor=myPurple"
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 0
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\secnumdepth 2
+\tocdepth 2
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Syllabus
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+centering{
+\backslash
+LARGE{Applied Calculus IV: Differential Equations
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+AMS 361}}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Date
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Instructor: 
+\series default
+Nilesh Chaturvedi
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Email:
+\series default
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+nilesh.chaturvedi@stonybrook.edu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Office hours: 
+\series default
+Tue/Wed/Thu 8:00-9:00 AM(remotely via zoom), or by appointment (email to
+ schedule) 
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Lectures: 
+\series default
+Tue/Thu 9:00 AM - 1:30 PM
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Zoom link:
+\series default
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://stonybrook.zoom.us/j/99689352588?pwd=OVRqbWRHTkVGSVZ0NFpUeUliSTBLdz09
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Teaching assistant: 
+\series default
+Yehoon (Mark) Jang
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Email:
+\series default
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+yehoon.jang@stonybrook.edu
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Office hours: 
+\series default
+Fri 3:00-5:00 PM
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Zoom link:
+\series default
+ 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://stonybrook.zoom.us/j/91712638110?pwd=bk1kRkNqUkVCVktLQjQrQmpBUmJ0dz09
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Textbook
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Lectures, Problems and Solutions for Ordinary Differential Equations
+\emph default
+ (Second Edition) by Yuefan Deng, World Scientific Publishing, ISBN-13:
+ 978-9813226135, ISBN-10: 9813226137
+\end_layout
+
+\begin_layout Section*
+Course Description
+\end_layout
+
+\begin_layout Standard
+This course intends to teach multiple methods for solving ordinary differential
+ equations (ODEs) and systems of them in addition to presenting the basic
+ ideas of constructing such equations.
+ More specially, the following topics will be covered during the course:
+\end_layout
+
+\begin_layout Itemize
+First-Order Differential Equations
+\end_layout
+
+\begin_layout Itemize
+Mathematical Models
+\end_layout
+
+\begin_layout Itemize
+Linear Differential Equations of Higher Order
+\end_layout
+
+\begin_layout Itemize
+Systems of Linear Differential Equations
+\end_layout
+
+\begin_layout Itemize
+Laplace Transform Methods
+\end_layout
+
+\begin_layout Itemize
+Applications of Laplace Transform Methods for Solutions of ODEs
+\end_layout
+
+\begin_layout Section*
+Exams and Grading
+\end_layout
+
+\begin_layout Subsection*
+Exams
+\end_layout
+
+\begin_layout Itemize
+Midterm : Tuesday, 07/26/2022 (during lecture hours)
+\end_layout
+
+\begin_layout Itemize
+Final : Tuesday, 08/16/2022 (during lecture hours)
+\end_layout
+
+\begin_layout Subsection*
+Grading
+\end_layout
+
+\begin_layout Standard
+Your final letter grade will be determined using the weights:
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Homeworks (5)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Midterm (1)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Final exam
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="1" alignment="center" valignment="top" bottomline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+45%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Midterm and final exam will take place during lecture hours.
+\end_layout
+
+\begin_layout Itemize
+The lowest homework will be dropped.
+\end_layout
+
+\begin_layout Itemize
+Late homeworks will not be graded.
+\end_layout
+
+\begin_layout Subsection*
+Grade Distribution
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Lower Division
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+Upper Division
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+A's
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+B's
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+35%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+C's
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+25%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+D's
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+F's
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10%
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+5%
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Technical Requirements
+\end_layout
+
+\begin_layout Standard
+This course uses Blackboard (
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://blackboard.stonybrook.edu
+\end_layout
+
+\end_inset
+
+) to facilitate communications be-tween faculty and students, submission
+ of assignments, and posting grades.
+ If you are unsure of your NetID, visit 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://it.stonybrook.edu/help/kb/finding-your-netid-and-password
+\end_layout
+
+\end_inset
+
+ for more information.
+ You are responsible for having a reliable computer and Internet connection
+ throughout the term.
+ 
+\series bold
+Caution! You may be at a disadvantage if you attempt to complete all coursework
+ on a smart phone or tablet.
+
+\series default
+ It may not be possible to submit the files required for your assignments.
+ The following list details a minimum recommended computer set-up and the
+ software packages you will need to access and use: 
+\end_layout
+
+\begin_layout Itemize
+Hardware: 
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+PC (Windows 7, 8, or 10) or Macintosh (OS X/macOS 10.10 or higher).
+ 
+\end_layout
+
+\begin_layout Enumerate
+4 GB RAM.
+ 
+\end_layout
+
+\begin_layout Enumerate
+A high-speed internet connection.
+ Note that public WiFi (e.g., Starbucks) and internet service provider hotspots
+ (e.g., optimumwifi or xfinitywifi) are 
+\series bold
+not recommended
+\series default
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Printer and scanner.
+ A cell phone or tablet camera can work in some cases for the latter with
+ apps such as CamScanner (there are myriad others).
+\end_layout
+
+\begin_layout Enumerate
+Speakers (either internal or external) or headphones.
+ 
+\series bold
+Headphones are strongly recommended to reduce the risk of feedback during
+ communications.
+\end_layout
+
+\begin_layout Enumerate
+Microphone (either internal or external).
+\end_layout
+
+\begin_layout Enumerate
+WebCam or other camera (interfacing with your computer) for producing video.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Software (additional tools may be needed).
+ 
+\series bold
+Remember to use your Stony Brook email or NetID
+\series default
+ when configuring specialized software:
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+The ability to download and install software applications and plug-ins.
+ Note that you may need administrator access to install some applications
+ and plug- ins.
+ 
+\end_layout
+
+\begin_layout Enumerate
+An up-to-date Internet browser, such as Chrome, Firefox, Explorer/Edge (Windows)
+, or Safari(macOS).
+ A complete list of supported browsers and operating systems can be found
+ on the MyInstitution page when you log in to Blackboard.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Word processing software (e.g., Microsoft Word, Pages).
+ 
+\end_layout
+
+\begin_layout Enumerate
+PDF viewer, such as Adobe Reader.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Zoom.
+ Stony Brook has a site license for Zoom; you can find information on downloadin
+g, installing, and using Zoom at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://it.stonybrook.edu/services/zoom/students
+\end_layout
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Respondus LockDown browser and Monitor.
+ Stony Brook has a site license for these packages; see 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://download.respondus.com/lockdown/download.php?id=772113517
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Section*
+Technical Assistance
+\end_layout
+
+\begin_layout Standard
+If you need technical assistance at any time during the course or to report
+ a problem with Blackboard you can visit the Stony Brook University Student
+ Help Desk Page, 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+http://www.stonybrook.edu/helpme
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+Students who need assistance with their personal devices can contact DoIT’s
+ service desk at (631) 632-9800 or submit an online request.
+ For more information, visit: 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://it.stonybrook.edu/students
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section*
+Student Absences Statement
+\end_layout
+
+\begin_layout Standard
+Students are expected to attend every class, report for examinations and
+ submit major graded coursework as scheduled.
+ If a student is unable to attend lecture(s), report for any exams or complete
+ major graded coursework as scheduled due to extenuating circumstances,
+ the student must contact the instructor as soon as possible.
+ Students may be requested to provide documentation to support their absence
+ and/or may be referred to the Student Support Team for assistance.
+ Students will be provided reasonable accommodations for missed exams, assignmen
+ts or projects due to significant illness, tragedy or other personal emergencies.
+ In the instance of missed lectures or labs, the student is responsible
+ for insert course specific information here (examples include: review posted
+ slides, review recorded lectures, seek notes from a classmate or identified
+ class note taker, write lab report based on sample data).
+\end_layout
+
+\begin_layout Section*
+Religious Observations
+\end_layout
+
+\begin_layout Standard
+I encourage students who plan to observe holy days that coincide with assignment
+ due dates to consult with me as soon as possible so that we may reach a
+ mutual understanding of how you can meet the terms of your religious observance
+ and also the requirements for this course.
+\end_layout
+
+\begin_layout Section*
+Student Accessibility Support Center Statement
+\end_layout
+
+\begin_layout Standard
+If you have a physical, psychological, medical, or learning disability that
+ may impact your course work, please contact the Student Accessibility Support
+ Center, Stony Brook Union Suite 107, (631) 632- 6748, or at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+sasc@stonybrook.edu
+\end_layout
+
+\end_inset
+
+.
+ They will determine with you what accommodations are necessary and appropriate.
+ All information and documentation are confidential.
+\end_layout
+
+\begin_layout Section*
+Academic Integrity
+\end_layout
+
+\begin_layout Standard
+Each student must pursue his or her academic goals honestly and be personally
+ accountable for all sub- mitted work.
+ Representing another person’s work as your own is always wrong.
+ Faculty are required to report any suspected instances of academic dishonesty
+ to the Academic Judiciary.
+ Faculty in the Health Sciences Center (School of Health Technology & Management
+, Nursing, Social Welfare, Dental Medicine) and School of Medicine are required
+ to follow their school-specific procedures.
+ For more comprehensive information on academic integrity, including categories
+ of academic dishonesty, please refer to the academic judiciary website
+ at 
+\begin_inset Flex URL
+status open
+
+\begin_layout Plain Layout
+
+https://www.stonybrook.edu/commcms/academic_integrity/index.html
+\end_layout
+
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+I take academic integrity very seriously and will report every suspected
+ case of academic dishonesty to the Academic Judiciary.
+ Please contact me if you have any questions about academic integrity or
+ suspect any cases of academic dishonesty.
+\end_layout
+
+\begin_layout Section*
+Critical Incident Management
+\end_layout
+
+\begin_layout Standard
+Stony Brook University expects students to respect the rights, privileges,
+ and property of other people.
+ Faculty are required to report to the Office of Judicial Affairs any disruptive
+ behavior that interrupts their ability to teach, compromises the safety
+ of the learning environment, or inhibits students’ ability to learn.
+ Faculty in the HSC Schools and the School of Medicine are required to follow
+ their school-specific procedures.
+\end_layout
+
+\begin_layout Section*
+Course Materials and Copyright Statement
+\end_layout
+
+\begin_layout Standard
+Course material accessed from Blackboard, SB Connect, SB Capture or a Stony
+ Brook Course website is for the exclusive use of students who are currently
+ enrolled in the course.
+ Content from these systems cannot be reused or distributed without written
+ permission of the instructor and/or the copyright holder.
+ Duplication of materials protected by copyright, without permission of
+ the copyright holder is a violation of the Federal copyright law, as well
+ as a violation of Stony Brook’s Academic Integrity.
+\end_layout
+
+\end_body
+\end_document
